@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED57958A2572997D00EAA153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5795892572997D00EAA153 /* AppDelegate.swift */; };
+		ED57958C2572997D00EAA153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57958B2572997D00EAA153 /* SceneDelegate.swift */; };
+		ED57958E2572997D00EAA153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57958D2572997D00EAA153 /* ViewController.swift */; };
+		ED5795912572997D00EAA153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED57958F2572997D00EAA153 /* Main.storyboard */; };
+		ED5795942572997D00EAA153 /* tawk_to.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED5795922572997D00EAA153 /* tawk_to.xcdatamodeld */; };
+		ED5795962572998100EAA153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5795952572998100EAA153 /* Assets.xcassets */; };
+		ED5795992572998100EAA153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5795972572998100EAA153 /* LaunchScreen.storyboard */; };
+		ED5795A42572998200EAA153 /* tawk_toTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5795A32572998200EAA153 /* tawk_toTests.swift */; };
+		ED5795AF2572998200EAA153 /* tawk_toUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5795AE2572998200EAA153 /* tawk_toUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED5795A02572998100EAA153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED57957E2572997D00EAA153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5795852572997D00EAA153;
+			remoteInfo = tawk.to;
+		};
+		ED5795AB2572998200EAA153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED57957E2572997D00EAA153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5795852572997D00EAA153;
+			remoteInfo = tawk.to;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED5795862572997D00EAA153 /* tawk.to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tawk.to.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5795892572997D00EAA153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED57958B2572997D00EAA153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED57958D2572997D00EAA153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED5795902572997D00EAA153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED5795932572997D00EAA153 /* tawk_to.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tawk_to.xcdatamodel; sourceTree = "<group>"; };
+		ED5795952572998100EAA153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED5795982572998100EAA153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED57959A2572998100EAA153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED57959F2572998100EAA153 /* tawk.toTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tawk.toTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5795A32572998200EAA153 /* tawk_toTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tawk_toTests.swift; sourceTree = "<group>"; };
+		ED5795A52572998200EAA153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5795AA2572998200EAA153 /* tawk.toUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tawk.toUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5795AE2572998200EAA153 /* tawk_toUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tawk_toUITests.swift; sourceTree = "<group>"; };
+		ED5795B02572998200EAA153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED5795832572997D00EAA153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED57959C2572998100EAA153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5795A72572998200EAA153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED57957D2572997D00EAA153 = {
+			isa = PBXGroup;
+			children = (
+				ED5795882572997D00EAA153 /* tawk.to */,
+				ED5795A22572998200EAA153 /* tawk.toTests */,
+				ED5795AD2572998200EAA153 /* tawk.toUITests */,
+				ED5795872572997D00EAA153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED5795872572997D00EAA153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED5795862572997D00EAA153 /* tawk.to.app */,
+				ED57959F2572998100EAA153 /* tawk.toTests.xctest */,
+				ED5795AA2572998200EAA153 /* tawk.toUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED5795882572997D00EAA153 /* tawk.to */ = {
+			isa = PBXGroup;
+			children = (
+				ED5795892572997D00EAA153 /* AppDelegate.swift */,
+				ED57958B2572997D00EAA153 /* SceneDelegate.swift */,
+				ED57958D2572997D00EAA153 /* ViewController.swift */,
+				ED57958F2572997D00EAA153 /* Main.storyboard */,
+				ED5795952572998100EAA153 /* Assets.xcassets */,
+				ED5795972572998100EAA153 /* LaunchScreen.storyboard */,
+				ED57959A2572998100EAA153 /* Info.plist */,
+				ED5795922572997D00EAA153 /* tawk_to.xcdatamodeld */,
+			);
+			path = tawk.to;
+			sourceTree = "<group>";
+		};
+		ED5795A22572998200EAA153 /* tawk.toTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5795A32572998200EAA153 /* tawk_toTests.swift */,
+				ED5795A52572998200EAA153 /* Info.plist */,
+			);
+			path = tawk.toTests;
+			sourceTree = "<group>";
+		};
+		ED5795AD2572998200EAA153 /* tawk.toUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5795AE2572998200EAA153 /* tawk_toUITests.swift */,
+				ED5795B02572998200EAA153 /* Info.plist */,
+			);
+			path = tawk.toUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED5795852572997D00EAA153 /* tawk.to */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5795B32572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.to" */;
+			buildPhases = (
+				ED5795822572997D00EAA153 /* Sources */,
+				ED5795832572997D00EAA153 /* Frameworks */,
+				ED5795842572997D00EAA153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tawk.to;
+			productName = tawk.to;
+			productReference = ED5795862572997D00EAA153 /* tawk.to.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED57959E2572998100EAA153 /* tawk.toTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5795B62572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.toTests" */;
+			buildPhases = (
+				ED57959B2572998100EAA153 /* Sources */,
+				ED57959C2572998100EAA153 /* Frameworks */,
+				ED57959D2572998100EAA153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5795A12572998100EAA153 /* PBXTargetDependency */,
+			);
+			name = tawk.toTests;
+			productName = tawk.toTests;
+			productReference = ED57959F2572998100EAA153 /* tawk.toTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED5795A92572998200EAA153 /* tawk.toUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5795B92572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.toUITests" */;
+			buildPhases = (
+				ED5795A62572998200EAA153 /* Sources */,
+				ED5795A72572998200EAA153 /* Frameworks */,
+				ED5795A82572998200EAA153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5795AC2572998200EAA153 /* PBXTargetDependency */,
+			);
+			name = tawk.toUITests;
+			productName = tawk.toUITests;
+			productReference = ED5795AA2572998200EAA153 /* tawk.toUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED57957E2572997D00EAA153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					ED5795852572997D00EAA153 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					ED57959E2572998100EAA153 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ED5795852572997D00EAA153;
+					};
+					ED5795A92572998200EAA153 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ED5795852572997D00EAA153;
+					};
+				};
+			};
+			buildConfigurationList = ED5795812572997D00EAA153 /* Build configuration list for PBXProject "tawk.to" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED57957D2572997D00EAA153;
+			productRefGroup = ED5795872572997D00EAA153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED5795852572997D00EAA153 /* tawk.to */,
+				ED57959E2572998100EAA153 /* tawk.toTests */,
+				ED5795A92572998200EAA153 /* tawk.toUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED5795842572997D00EAA153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5795992572998100EAA153 /* LaunchScreen.storyboard in Resources */,
+				ED5795962572998100EAA153 /* Assets.xcassets in Resources */,
+				ED5795912572997D00EAA153 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED57959D2572998100EAA153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5795A82572998200EAA153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED5795822572997D00EAA153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED57958E2572997D00EAA153 /* ViewController.swift in Sources */,
+				ED5795942572997D00EAA153 /* tawk_to.xcdatamodeld in Sources */,
+				ED57958A2572997D00EAA153 /* AppDelegate.swift in Sources */,
+				ED57958C2572997D00EAA153 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED57959B2572998100EAA153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5795A42572998200EAA153 /* tawk_toTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5795A62572998200EAA153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5795AF2572998200EAA153 /* tawk_toUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED5795A12572998100EAA153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5795852572997D00EAA153 /* tawk.to */;
+			targetProxy = ED5795A02572998100EAA153 /* PBXContainerItemProxy */;
+		};
+		ED5795AC2572998200EAA153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5795852572997D00EAA153 /* tawk.to */;
+			targetProxy = ED5795AB2572998200EAA153 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED57958F2572997D00EAA153 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5795902572997D00EAA153 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED5795972572998100EAA153 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5795982572998100EAA153 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED5795B12572998200EAA153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED5795B22572998200EAA153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED5795B42572998200EAA153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				INFOPLIST_FILE = tawk.to/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperas.tawk.tawk-to";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED5795B52572998200EAA153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				INFOPLIST_FILE = tawk.to/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperas.tawk.tawk-to";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED5795B72572998200EAA153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				INFOPLIST_FILE = tawk.toTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperas.tawk.tawk-toTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tawk.to.app/tawk.to";
+			};
+			name = Debug;
+		};
+		ED5795B82572998200EAA153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				INFOPLIST_FILE = tawk.toTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperas.tawk.tawk-toTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tawk.to.app/tawk.to";
+			};
+			name = Release;
+		};
+		ED5795BA2572998200EAA153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				INFOPLIST_FILE = tawk.toUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperas.tawk.tawk-toUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tawk.to;
+			};
+			name = Debug;
+		};
+		ED5795BB2572998200EAA153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CLLS8GM2C;
+				INFOPLIST_FILE = tawk.toUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esperas.tawk.tawk-toUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tawk.to;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED5795812572997D00EAA153 /* Build configuration list for PBXProject "tawk.to" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5795B12572998200EAA153 /* Debug */,
+				ED5795B22572998200EAA153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5795B32572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.to" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5795B42572998200EAA153 /* Debug */,
+				ED5795B52572998200EAA153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5795B62572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.toTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5795B72572998200EAA153 /* Debug */,
+				ED5795B82572998200EAA153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5795B92572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.toUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5795BA2572998200EAA153 /* Debug */,
+				ED5795BB2572998200EAA153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED5795922572997D00EAA153 /* tawk_to.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED5795932572997D00EAA153 /* tawk_to.xcdatamodel */,
+			);
+			currentVersion = ED5795932572997D00EAA153 /* tawk_to.xcdatamodel */;
+			path = tawk_to.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED57957E2572997D00EAA153 /* Project object */;
+}
