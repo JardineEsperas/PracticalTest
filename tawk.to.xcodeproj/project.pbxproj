@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		364F9F00F289225F29DA5C1D /* Pods_tawk_to_tawk_toUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58A583E949F8D27FD4EE2CB /* Pods_tawk_to_tawk_toUITests.framework */; };
+		676F2DC2DDB60AB9818462C3 /* Pods_tawk_to.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52295ACC4CEB4F243233C2FE /* Pods_tawk_to.framework */; };
+		CA0E14CE9EE2A17B1D32713D /* Pods_tawk_toTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36513CF2AD08C194B5B6E49 /* Pods_tawk_toTests.framework */; };
+		ED0A2E382580E5EE00F9E178 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A2E372580E5ED00F9E178 /* Loader.swift */; };
+		ED0A2E4925810EC200F9E178 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A2E4825810EC100F9E178 /* BaseViewController.swift */; };
+		ED0A2E4E2581119700F9E178 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A2E4D2581119700F9E178 /* UserViewController.swift */; };
 		ED57958A2572997D00EAA153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5795892572997D00EAA153 /* AppDelegate.swift */; };
 		ED57958C2572997D00EAA153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57958B2572997D00EAA153 /* SceneDelegate.swift */; };
-		ED57958E2572997D00EAA153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57958D2572997D00EAA153 /* ViewController.swift */; };
 		ED5795912572997D00EAA153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED57958F2572997D00EAA153 /* Main.storyboard */; };
-		ED5795942572997D00EAA153 /* tawk_to.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED5795922572997D00EAA153 /* tawk_to.xcdatamodeld */; };
 		ED5795962572998100EAA153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5795952572998100EAA153 /* Assets.xcassets */; };
 		ED5795992572998100EAA153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5795972572998100EAA153 /* LaunchScreen.storyboard */; };
 		ED5795A42572998200EAA153 /* tawk_toTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5795A32572998200EAA153 /* tawk_toTests.swift */; };
 		ED5795AF2572998200EAA153 /* tawk_toUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5795AE2572998200EAA153 /* tawk_toUITests.swift */; };
+		ED57964A2574FCD800EAA153 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5796492574FCD800EAA153 /* UserCell.swift */; };
+		ED57965325750F2500EAA153 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57965225750F2500EAA153 /* APIService.swift */; };
+		ED57966D257536C000EAA153 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57966C257536C000EAA153 /* CoreDataStack.swift */; };
+		ED579683257575C500EAA153 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED579682257575C400EAA153 /* ImageViewExtension.swift */; };
+		ED5796A12576370D00EAA153 /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5796A02576370D00EAA153 /* ProfileData.swift */; };
+		ED5796F325764C4C00EAA153 /* tawk_to.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED5795922572997D00EAA153 /* tawk_to.xcdatamodeld */; };
+		ED911959257CC0E7005E8D11 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED911958257CC0E7005E8D11 /* ProfileViewController.swift */; };
+		ED911A27257CFC4C005E8D11 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57965A25751ED900EAA153 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +48,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38C78CE7FFEE10F0101C88CA /* Pods-tawk.to-tawk.toUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to-tawk.toUITests.debug.xcconfig"; path = "Target Support Files/Pods-tawk.to-tawk.toUITests/Pods-tawk.to-tawk.toUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52295ACC4CEB4F243233C2FE /* Pods_tawk_to.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tawk_to.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EAB1ACD4065AC80D459E46F /* Pods-tawk.to.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to.debug.xcconfig"; path = "Target Support Files/Pods-tawk.to/Pods-tawk.to.debug.xcconfig"; sourceTree = "<group>"; };
+		94DA5A4C2CD11DAEEB4E1744 /* Pods-tawk.toTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.toTests.debug.xcconfig"; path = "Target Support Files/Pods-tawk.toTests/Pods-tawk.toTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0741DAE5E479A40107B7BD3 /* Pods-tawk.to-tawk.toUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to-tawk.toUITests.release.xcconfig"; path = "Target Support Files/Pods-tawk.to-tawk.toUITests/Pods-tawk.to-tawk.toUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B36513CF2AD08C194B5B6E49 /* Pods_tawk_toTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tawk_toTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58A583E949F8D27FD4EE2CB /* Pods_tawk_to_tawk_toUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tawk_to_tawk_toUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7BB1229206A505B87ABE80 /* Pods-tawk.to.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to.release.xcconfig"; path = "Target Support Files/Pods-tawk.to/Pods-tawk.to.release.xcconfig"; sourceTree = "<group>"; };
+		ED0A2E372580E5ED00F9E178 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		ED0A2E4825810EC100F9E178 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		ED0A2E4D2581119700F9E178 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		ED5795862572997D00EAA153 /* tawk.to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tawk.to.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5795892572997D00EAA153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED57958B2572997D00EAA153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED57958D2572997D00EAA153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED5795902572997D00EAA153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED5795932572997D00EAA153 /* tawk_to.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tawk_to.xcdatamodel; sourceTree = "<group>"; };
 		ED5795952572998100EAA153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +73,14 @@
 		ED5795AA2572998200EAA153 /* tawk.toUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tawk.toUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5795AE2572998200EAA153 /* tawk_toUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tawk_toUITests.swift; sourceTree = "<group>"; };
 		ED5795B02572998200EAA153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5796492574FCD800EAA153 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		ED57965225750F2500EAA153 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		ED57965A25751ED900EAA153 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		ED57966C257536C000EAA153 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		ED579682257575C400EAA153 /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		ED5796A02576370D00EAA153 /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		ED911958257CC0E7005E8D11 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F49AB3B5A67C33EE3A146EDD /* Pods-tawk.toTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.toTests.release.xcconfig"; path = "Target Support Files/Pods-tawk.toTests/Pods-tawk.toTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676F2DC2DDB60AB9818462C3 /* Pods_tawk_to.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0E14CE9EE2A17B1D32713D /* Pods_tawk_toTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +104,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364F9F00F289225F29DA5C1D /* Pods_tawk_to_tawk_toUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212E583F23FD95C8604F7D89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EAB1ACD4065AC80D459E46F /* Pods-tawk.to.debug.xcconfig */,
+				DA7BB1229206A505B87ABE80 /* Pods-tawk.to.release.xcconfig */,
+				38C78CE7FFEE10F0101C88CA /* Pods-tawk.to-tawk.toUITests.debug.xcconfig */,
+				A0741DAE5E479A40107B7BD3 /* Pods-tawk.to-tawk.toUITests.release.xcconfig */,
+				94DA5A4C2CD11DAEEB4E1744 /* Pods-tawk.toTests.debug.xcconfig */,
+				F49AB3B5A67C33EE3A146EDD /* Pods-tawk.toTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		31DEA97C3AC81CB6DD0288CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52295ACC4CEB4F243233C2FE /* Pods_tawk_to.framework */,
+				B58A583E949F8D27FD4EE2CB /* Pods_tawk_to_tawk_toUITests.framework */,
+				B36513CF2AD08C194B5B6E49 /* Pods_tawk_toTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED57957D2572997D00EAA153 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +141,8 @@
 				ED5795A22572998200EAA153 /* tawk.toTests */,
 				ED5795AD2572998200EAA153 /* tawk.toUITests */,
 				ED5795872572997D00EAA153 /* Products */,
+				212E583F23FD95C8604F7D89 /* Pods */,
+				31DEA97C3AC81CB6DD0288CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +161,17 @@
 			children = (
 				ED5795892572997D00EAA153 /* AppDelegate.swift */,
 				ED57958B2572997D00EAA153 /* SceneDelegate.swift */,
-				ED57958D2572997D00EAA153 /* ViewController.swift */,
-				ED57958F2572997D00EAA153 /* Main.storyboard */,
-				ED5795952572998100EAA153 /* Assets.xcassets */,
+				ED579627257310B800EAA153 /* Controllers */,
+				ED5796292573111D00EAA153 /* Models */,
+				ED57963F2574F7E900EAA153 /* Views */,
+				ED5796482574FB9B00EAA153 /* Cells */,
+				ED57965125750F0C00EAA153 /* APIService */,
+				ED5796812575757F00EAA153 /* Extensions */,
+				ED57966C257536C000EAA153 /* CoreDataStack.swift */,
 				ED5795972572998100EAA153 /* LaunchScreen.storyboard */,
-				ED57959A2572998100EAA153 /* Info.plist */,
+				ED5795952572998100EAA153 /* Assets.xcassets */,
 				ED5795922572997D00EAA153 /* tawk_to.xcdatamodeld */,
+				ED57959A2572998100EAA153 /* Info.plist */,
 			);
 			path = tawk.to;
 			sourceTree = "<group>";
@@ -131,6 +194,58 @@
 			path = tawk.toUITests;
 			sourceTree = "<group>";
 		};
+		ED579627257310B800EAA153 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED911958257CC0E7005E8D11 /* ProfileViewController.swift */,
+				ED0A2E4825810EC100F9E178 /* BaseViewController.swift */,
+				ED0A2E4D2581119700F9E178 /* UserViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED5796292573111D00EAA153 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED57965A25751ED900EAA153 /* UserData.swift */,
+				ED5796A02576370D00EAA153 /* ProfileData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED57963F2574F7E900EAA153 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED57958F2572997D00EAA153 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED5796482574FB9B00EAA153 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED5796492574FCD800EAA153 /* UserCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ED57965125750F0C00EAA153 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				ED57965225750F2500EAA153 /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		ED5796812575757F00EAA153 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED579682257575C400EAA153 /* ImageViewExtension.swift */,
+				ED0A2E372580E5ED00F9E178 /* Loader.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5795B32572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.to" */;
 			buildPhases = (
+				1362A197CDA055E190D111D6 /* [CP] Check Pods Manifest.lock */,
 				ED5795822572997D00EAA153 /* Sources */,
 				ED5795832572997D00EAA153 /* Frameworks */,
 				ED5795842572997D00EAA153 /* Resources */,
+				37E2957AED8044592B09B909 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5795B62572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.toTests" */;
 			buildPhases = (
+				654F07955139DE5E42CF5805 /* [CP] Check Pods Manifest.lock */,
 				ED57959B2572998100EAA153 /* Sources */,
 				ED57959C2572998100EAA153 /* Frameworks */,
 				ED57959D2572998100EAA153 /* Resources */,
@@ -173,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5795B92572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.toUITests" */;
 			buildPhases = (
+				CFE0EA6202A245C4E1E215F9 /* [CP] Check Pods Manifest.lock */,
 				ED5795A62572998200EAA153 /* Sources */,
 				ED5795A72572998200EAA153 /* Frameworks */,
 				ED5795A82572998200EAA153 /* Resources */,
+				91FFB8AC4A38207B6402C480 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,14 +376,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1362A197CDA055E190D111D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tawk.to-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37E2957AED8044592B09B909 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tawk.to/Pods-tawk.to-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tawk.to/Pods-tawk.to-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tawk.to/Pods-tawk.to-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654F07955139DE5E42CF5805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tawk.toTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FFB8AC4A38207B6402C480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tawk.to-tawk.toUITests/Pods-tawk.to-tawk.toUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tawk.to-tawk.toUITests/Pods-tawk.to-tawk.toUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tawk.to-tawk.toUITests/Pods-tawk.to-tawk.toUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE0EA6202A245C4E1E215F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tawk.to-tawk.toUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED5795822572997D00EAA153 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED57958E2572997D00EAA153 /* ViewController.swift in Sources */,
-				ED5795942572997D00EAA153 /* tawk_to.xcdatamodeld in Sources */,
+				ED911A27257CFC4C005E8D11 /* UserData.swift in Sources */,
+				ED0A2E4E2581119700F9E178 /* UserViewController.swift in Sources */,
+				ED57965325750F2500EAA153 /* APIService.swift in Sources */,
 				ED57958A2572997D00EAA153 /* AppDelegate.swift in Sources */,
+				ED5796F325764C4C00EAA153 /* tawk_to.xcdatamodeld in Sources */,
+				ED0A2E4925810EC200F9E178 /* BaseViewController.swift in Sources */,
+				ED5796A12576370D00EAA153 /* ProfileData.swift in Sources */,
+				ED57964A2574FCD800EAA153 /* UserCell.swift in Sources */,
+				ED57966D257536C000EAA153 /* CoreDataStack.swift in Sources */,
+				ED911959257CC0E7005E8D11 /* ProfileViewController.swift in Sources */,
+				ED0A2E382580E5EE00F9E178 /* Loader.swift in Sources */,
+				ED579683257575C500EAA153 /* ImageViewExtension.swift in Sources */,
 				ED57958C2572997D00EAA153 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +657,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,44 +669,53 @@
 		};
 		ED5795B42572998200EAA153 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EAB1ACD4065AC80D459E46F /* Pods-tawk.to.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6CLLS8GM2C;
 				INFOPLIST_FILE = tawk.to/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.esperas.tawk.tawk-to";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jardine.talk.to;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ED5795B52572998200EAA153 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7BB1229206A505B87ABE80 /* Pods-tawk.to.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6CLLS8GM2C;
 				INFOPLIST_FILE = tawk.to/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.esperas.tawk.tawk-to";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jardine.talk.to;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		ED5795B72572998200EAA153 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94DA5A4C2CD11DAEEB4E1744 /* Pods-tawk.toTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +738,7 @@
 		};
 		ED5795B82572998200EAA153 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49AB3B5A67C33EE3A146EDD /* Pods-tawk.toTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +761,7 @@
 		};
 		ED5795BA2572998200EAA153 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C78CE7FFEE10F0101C88CA /* Pods-tawk.to-tawk.toUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +782,7 @@
 		};
 		ED5795BB2572998200EAA153 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0741DAE5E479A40107B7BD3 /* Pods-tawk.to-tawk.toUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

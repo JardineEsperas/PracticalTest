@@ -2,7 +2,7 @@
 //  tawk_toUITests.swift
 //  tawk.toUITests
 //
-//  Created by Marc Jardine Esperas on 11/28/20.
+//  Created by Marc Jardine Esperas on 12/8/20.
 //
 
 import XCTest
@@ -22,7 +22,7 @@ class tawk_toUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+        func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()

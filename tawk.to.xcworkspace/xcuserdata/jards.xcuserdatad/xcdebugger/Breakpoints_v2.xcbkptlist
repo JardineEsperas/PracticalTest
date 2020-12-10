@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "359F547A-E445-4F6E-86B3-1A7788D0505C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43D658A1-AE9F-439B-8B9C-0F6A74C09370"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "hasInternetConnection()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDD4EA92-A51D-47CE-B221-47D383179C49"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "reachabilityChanged(note:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD78EC84-63B8-47EE-A8B1-DDFAB2581189"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "configureReachability()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DD78EC84-63B8-47EE-A8B1-DDFAB2581189 - 5b9519bb7c0e3dcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Reachability.Reachability) -&gt; () in tawk_to.BaseViewController.(configureReachability in _17FA5DBE0DC77060DCE3D3C4EAB9DA61)() -&gt; ()"
+                  moduleName = "tawk.to"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jards/Documents/My%20Files/Projects/Tawk.to/Dev/tawk.to-iOS/tawk.to/tawk.to/Controllers/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  uuid = "DD78EC84-63B8-47EE-A8B1-DDFAB2581189 - 57e108ed8bd4ea57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Reachability.Reachability) -&gt; () in tawk_to.BaseViewController.(configureReachability in _17FA5DBE0DC77060DCE3D3C4EAB9DA61)() -&gt; ()"
+                  moduleName = "tawk.to"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jards/Documents/My%20Files/Projects/Tawk.to/Dev/tawk.to-iOS/tawk.to/tawk.to/Controllers/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAC27F50-037F-424D-82C6-0AFFC25878D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "BaseViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DAC27F50-037F-424D-82C6-0AFFC25878D3 - 624e43858146170e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Reachability.Reachability) -&gt; () in tawk_to.BaseViewController.(configureReachability in _17FA5DBE0DC77060DCE3D3C4EAB9DA61)() -&gt; ()"
+                  moduleName = "tawk.to"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jards/Documents/My%20Files/Projects/Tawk.to/Dev/tawk.to-iOS/tawk.to/tawk.to/Controllers/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  uuid = "DAC27F50-037F-424D-82C6-0AFFC25878D3 - 57e108ed8bd4e9a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 (Reachability.Reachability) -&gt; () in tawk_to.BaseViewController.(configureReachability in _17FA5DBE0DC77060DCE3D3C4EAB9DA61)() -&gt; ()"
+                  moduleName = "tawk.to"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jards/Documents/My%20Files/Projects/Tawk.to/Dev/tawk.to-iOS/tawk.to/tawk.to/Controllers/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA14E332-07B8-4AD2-A64E-63FC5930128B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

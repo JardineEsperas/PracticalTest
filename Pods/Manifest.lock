@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.6)
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - ReachabilitySwift
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - ReachabilitySwift
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: 6515781074a49e4ccd4693507cc1ebebd2aed458
+
+COCOAPODS: 1.10.0

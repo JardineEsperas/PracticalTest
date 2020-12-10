@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C6468EDA-6D4B-42B8-8641-E93BFA85C2D5"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92B1E4C4-ABB1-4ECA-9C99-EAB9D7AF914B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "getUserProfile(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D010D2D7-D686-468A-92CA-2C270A37DAE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getUserProfile(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D010D2D7-D686-468A-92CA-2C270A37DAE0 - a80e47a61f5763fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (tawk_to.Result&lt;Swift.Optional&lt;tawk_to.ProfileData&gt;&gt;) -&gt; () in tawk_to.ProfileViewController.(getUserProfile in _75767BB21A8AB1883612D1E4DC0836AB)(with: Swift.String) -&gt; ()"
+                  moduleName = "tawk.to"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JEsperas/Downloads/tawk.to-iOS/tawk.to/tawk.to/Controllers/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "D010D2D7-D686-468A-92CA-2C270A37DAE0 - a80e47a61f5763fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (tawk_to.Result&lt;Swift.Optional&lt;tawk_to.ProfileData&gt;&gt;) -&gt; () in tawk_to.ProfileViewController.(getUserProfile in _75767BB21A8AB1883612D1E4DC0836AB)(with: Swift.String) -&gt; ()"
+                  moduleName = "tawk.to"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JEsperas/Downloads/tawk.to-iOS/tawk.to/tawk.to/Controllers/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "D010D2D7-D686-468A-92CA-2C270A37DAE0 - a80e47a61f5763fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (tawk_to.Result&lt;Swift.Optional&lt;tawk_to.ProfileData&gt;&gt;) -&gt; () in tawk_to.ProfileViewController.(getUserProfile in _75767BB21A8AB1883612D1E4DC0836AB)(with: Swift.String) -&gt; ()"
+                  moduleName = "tawk.to"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JEsperas/Downloads/tawk.to-iOS/tawk.to/tawk.to/Controllers/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "700">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BAFF15B-30F7-45D8-BC86-788644339294"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getUserProfile(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "735B0223-9212-469A-9FE7-EFBFBA9287D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "hasInternetConnection()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C30710F0-5675-4735-9CD7-F9D2AC32F790"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getUserProfile(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A013885C-62E9-40F4-B2C0-9EB8638C4AB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "updateUser(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE6DEB56-9D2E-4718-97E3-43E1AB3C89A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "clearData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37300812-B929-4FEA-897F-BFFDD40EBF40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "hasInternetConnection()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE724F3A-62A3-47CB-A7D7-637C54F437D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F82E3722-2B05-45D6-A744-727B77426BE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "getUsersList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCA9184C-A7E9-4415-ACDE-124EFF65A842"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tawk.to/Controllers/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "getUsersList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CCA9184C-A7E9-4415-ACDE-124EFF65A842 - acf52446092f565c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (tawk_to.Result&lt;Swift.Optional&lt;Swift.Array&lt;tawk_to.UserData&gt;&gt;&gt;) -&gt; () in tawk_to.UserViewController.(getUsersList in _B4AA16BF71E67110BCBF530D84754C22)() -&gt; ()"
+                  moduleName = "tawk.to"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JEsperas/Downloads/tawk.to-iOS/tawk.to/tawk.to/Controllers/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1136">
+               </Location>
+               <Location
+                  uuid = "CCA9184C-A7E9-4415-ACDE-124EFF65A842 - 8a7882b4aeaca087"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (tawk_to.Result&lt;Swift.Optional&lt;Swift.Array&lt;tawk_to.UserData&gt;&gt;&gt;) -&gt; () in tawk_to.UserViewController.(getUsersList in _B4AA16BF71E67110BCBF530D84754C22)() -&gt; ()"
+                  moduleName = "tawk.to"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JEsperas/Downloads/tawk.to-iOS/tawk.to/tawk.to/Controllers/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
