@@ -29,7 +29,7 @@ class UserViewController: BaseViewController {
         super.viewDidLoad()
 
         print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
-        showSpinner()
+        
         setUpUI()
 
     }
@@ -84,6 +84,7 @@ class UserViewController: BaseViewController {
     override func hasInternetConnection() {
         super.hasInternetConnection()
         
+        showSpinner()
         loadNote()
         getUsersList()
     }

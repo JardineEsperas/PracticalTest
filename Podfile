@@ -7,8 +7,8 @@ target 'tawk.to' do
 
   # Pods for tawk.to
   pod 'IQKeyboardManagerSwift'
+  pod 'NotificationBannerSwift', '~> 3.0.0'
   pod 'ReachabilitySwift'
-
 
   target 'tawk.toTests' do
     inherit! :search_paths

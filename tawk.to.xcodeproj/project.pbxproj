@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		364F9F00F289225F29DA5C1D /* Pods_tawk_to_tawk_toUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58A583E949F8D27FD4EE2CB /* Pods_tawk_to_tawk_toUITests.framework */; };
-		676F2DC2DDB60AB9818462C3 /* Pods_tawk_to.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52295ACC4CEB4F243233C2FE /* Pods_tawk_to.framework */; };
-		CA0E14CE9EE2A17B1D32713D /* Pods_tawk_toTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36513CF2AD08C194B5B6E49 /* Pods_tawk_toTests.framework */; };
+		1C800FE31D489AF51B34FA9F /* Pods_tawk_to.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F20BAB313437099176C9EA0 /* Pods_tawk_to.framework */; };
+		1DFF7103A391A096222EF9C6 /* Pods_tawk_to_tawk_toUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37670496F7454B449E9CE15 /* Pods_tawk_to_tawk_toUITests.framework */; };
+		31FC9D1A44CBA39CD58FFB4E /* Pods_tawk_toTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FC60A67FE0699DB62B6AEC /* Pods_tawk_toTests.framework */; };
 		ED0A2E382580E5EE00F9E178 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A2E372580E5ED00F9E178 /* Loader.swift */; };
 		ED0A2E4925810EC200F9E178 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A2E4825810EC100F9E178 /* BaseViewController.swift */; };
 		ED0A2E4E2581119700F9E178 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A2E4D2581119700F9E178 /* UserViewController.swift */; };
@@ -48,14 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		38C78CE7FFEE10F0101C88CA /* Pods-tawk.to-tawk.toUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to-tawk.toUITests.debug.xcconfig"; path = "Target Support Files/Pods-tawk.to-tawk.toUITests/Pods-tawk.to-tawk.toUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		52295ACC4CEB4F243233C2FE /* Pods_tawk_to.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tawk_to.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EAB1ACD4065AC80D459E46F /* Pods-tawk.to.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to.debug.xcconfig"; path = "Target Support Files/Pods-tawk.to/Pods-tawk.to.debug.xcconfig"; sourceTree = "<group>"; };
-		94DA5A4C2CD11DAEEB4E1744 /* Pods-tawk.toTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.toTests.debug.xcconfig"; path = "Target Support Files/Pods-tawk.toTests/Pods-tawk.toTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A0741DAE5E479A40107B7BD3 /* Pods-tawk.to-tawk.toUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to-tawk.toUITests.release.xcconfig"; path = "Target Support Files/Pods-tawk.to-tawk.toUITests/Pods-tawk.to-tawk.toUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B36513CF2AD08C194B5B6E49 /* Pods_tawk_toTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tawk_toTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B58A583E949F8D27FD4EE2CB /* Pods_tawk_to_tawk_toUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tawk_to_tawk_toUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA7BB1229206A505B87ABE80 /* Pods-tawk.to.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to.release.xcconfig"; path = "Target Support Files/Pods-tawk.to/Pods-tawk.to.release.xcconfig"; sourceTree = "<group>"; };
+		13780AB4EAFA714548971F54 /* Pods-tawk.toTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.toTests.debug.xcconfig"; path = "Target Support Files/Pods-tawk.toTests/Pods-tawk.toTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4805B9CAF4FFF6ED82E04132 /* Pods-tawk.to-tawk.toUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to-tawk.toUITests.debug.xcconfig"; path = "Target Support Files/Pods-tawk.to-tawk.toUITests/Pods-tawk.to-tawk.toUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		520776902202E13BC11CA570 /* Pods-tawk.to-tawk.toUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to-tawk.toUITests.release.xcconfig"; path = "Target Support Files/Pods-tawk.to-tawk.toUITests/Pods-tawk.to-tawk.toUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5984B8C6FFA4BFEC6E1D8B4C /* Pods-tawk.to.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to.debug.xcconfig"; path = "Target Support Files/Pods-tawk.to/Pods-tawk.to.debug.xcconfig"; sourceTree = "<group>"; };
+		62FC60A67FE0699DB62B6AEC /* Pods_tawk_toTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tawk_toTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F20BAB313437099176C9EA0 /* Pods_tawk_to.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tawk_to.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37670496F7454B449E9CE15 /* Pods_tawk_to_tawk_toUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tawk_to_tawk_toUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC646D58275EB7486F59A99 /* Pods-tawk.to.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to.release.xcconfig"; path = "Target Support Files/Pods-tawk.to/Pods-tawk.to.release.xcconfig"; sourceTree = "<group>"; };
+		D3474F5EA885A75FA09CF075 /* Pods-tawk.toTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.toTests.release.xcconfig"; path = "Target Support Files/Pods-tawk.toTests/Pods-tawk.toTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED0A2E372580E5ED00F9E178 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		ED0A2E4825810EC100F9E178 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		ED0A2E4D2581119700F9E178 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		ED579682257575C400EAA153 /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
 		ED5796A02576370D00EAA153 /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
 		ED911958257CC0E7005E8D11 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		F49AB3B5A67C33EE3A146EDD /* Pods-tawk.toTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.toTests.release.xcconfig"; path = "Target Support Files/Pods-tawk.toTests/Pods-tawk.toTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676F2DC2DDB60AB9818462C3 /* Pods_tawk_to.framework in Frameworks */,
+				1C800FE31D489AF51B34FA9F /* Pods_tawk_to.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA0E14CE9EE2A17B1D32713D /* Pods_tawk_toTests.framework in Frameworks */,
+				31FC9D1A44CBA39CD58FFB4E /* Pods_tawk_toTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364F9F00F289225F29DA5C1D /* Pods_tawk_to_tawk_toUITests.framework in Frameworks */,
+				1DFF7103A391A096222EF9C6 /* Pods_tawk_to_tawk_toUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,22 +114,22 @@
 		212E583F23FD95C8604F7D89 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6EAB1ACD4065AC80D459E46F /* Pods-tawk.to.debug.xcconfig */,
-				DA7BB1229206A505B87ABE80 /* Pods-tawk.to.release.xcconfig */,
-				38C78CE7FFEE10F0101C88CA /* Pods-tawk.to-tawk.toUITests.debug.xcconfig */,
-				A0741DAE5E479A40107B7BD3 /* Pods-tawk.to-tawk.toUITests.release.xcconfig */,
-				94DA5A4C2CD11DAEEB4E1744 /* Pods-tawk.toTests.debug.xcconfig */,
-				F49AB3B5A67C33EE3A146EDD /* Pods-tawk.toTests.release.xcconfig */,
+				5984B8C6FFA4BFEC6E1D8B4C /* Pods-tawk.to.debug.xcconfig */,
+				CFC646D58275EB7486F59A99 /* Pods-tawk.to.release.xcconfig */,
+				4805B9CAF4FFF6ED82E04132 /* Pods-tawk.to-tawk.toUITests.debug.xcconfig */,
+				520776902202E13BC11CA570 /* Pods-tawk.to-tawk.toUITests.release.xcconfig */,
+				13780AB4EAFA714548971F54 /* Pods-tawk.toTests.debug.xcconfig */,
+				D3474F5EA885A75FA09CF075 /* Pods-tawk.toTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		31DEA97C3AC81CB6DD0288CA /* Frameworks */ = {
+		4F65C30F05C80660308A242F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52295ACC4CEB4F243233C2FE /* Pods_tawk_to.framework */,
-				B58A583E949F8D27FD4EE2CB /* Pods_tawk_to_tawk_toUITests.framework */,
-				B36513CF2AD08C194B5B6E49 /* Pods_tawk_toTests.framework */,
+				9F20BAB313437099176C9EA0 /* Pods_tawk_to.framework */,
+				A37670496F7454B449E9CE15 /* Pods_tawk_to_tawk_toUITests.framework */,
+				62FC60A67FE0699DB62B6AEC /* Pods_tawk_toTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 				ED5795AD2572998200EAA153 /* tawk.toUITests */,
 				ED5795872572997D00EAA153 /* Products */,
 				212E583F23FD95C8604F7D89 /* Pods */,
-				31DEA97C3AC81CB6DD0288CA /* Frameworks */,
+				4F65C30F05C80660308A242F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,11 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5795B32572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.to" */;
 			buildPhases = (
-				1362A197CDA055E190D111D6 /* [CP] Check Pods Manifest.lock */,
+				9C446C7AAB6E92EC792C228A /* [CP] Check Pods Manifest.lock */,
 				ED5795822572997D00EAA153 /* Sources */,
 				ED5795832572997D00EAA153 /* Frameworks */,
 				ED5795842572997D00EAA153 /* Resources */,
-				37E2957AED8044592B09B909 /* [CP] Embed Pods Frameworks */,
+				1A3CBD8DFFFDE54C640CBCBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,7 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5795B62572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.toTests" */;
 			buildPhases = (
-				654F07955139DE5E42CF5805 /* [CP] Check Pods Manifest.lock */,
+				3A16A43ADC50809F28F0DB59 /* [CP] Check Pods Manifest.lock */,
 				ED57959B2572998100EAA153 /* Sources */,
 				ED57959C2572998100EAA153 /* Frameworks */,
 				ED57959D2572998100EAA153 /* Resources */,
@@ -291,11 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED5795B92572998200EAA153 /* Build configuration list for PBXNativeTarget "tawk.toUITests" */;
 			buildPhases = (
-				CFE0EA6202A245C4E1E215F9 /* [CP] Check Pods Manifest.lock */,
+				E3432B599F902391680F0970 /* [CP] Check Pods Manifest.lock */,
 				ED5795A62572998200EAA153 /* Sources */,
 				ED5795A72572998200EAA153 /* Frameworks */,
 				ED5795A82572998200EAA153 /* Resources */,
-				91FFB8AC4A38207B6402C480 /* [CP] Embed Pods Frameworks */,
+				C9BF41F7770EA69308FB30BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -377,29 +377,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1362A197CDA055E190D111D6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tawk.to-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		37E2957AED8044592B09B909 /* [CP] Embed Pods Frameworks */ = {
+		1A3CBD8DFFFDE54C640CBCBF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -416,7 +394,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tawk.to/Pods-tawk.to-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		654F07955139DE5E42CF5805 /* [CP] Check Pods Manifest.lock */ = {
+		3A16A43ADC50809F28F0DB59 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,7 +416,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		91FFB8AC4A38207B6402C480 /* [CP] Embed Pods Frameworks */ = {
+		9C446C7AAB6E92EC792C228A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tawk.to-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9BF41F7770EA69308FB30BC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,7 +455,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tawk.to-tawk.toUITests/Pods-tawk.to-tawk.toUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CFE0EA6202A245C4E1E215F9 /* [CP] Check Pods Manifest.lock */ = {
+		E3432B599F902391680F0970 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -669,7 +669,7 @@
 		};
 		ED5795B42572998200EAA153 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EAB1ACD4065AC80D459E46F /* Pods-tawk.to.debug.xcconfig */;
+			baseConfigurationReference = 5984B8C6FFA4BFEC6E1D8B4C /* Pods-tawk.to.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -692,7 +692,7 @@
 		};
 		ED5795B52572998200EAA153 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA7BB1229206A505B87ABE80 /* Pods-tawk.to.release.xcconfig */;
+			baseConfigurationReference = CFC646D58275EB7486F59A99 /* Pods-tawk.to.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -715,7 +715,7 @@
 		};
 		ED5795B72572998200EAA153 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94DA5A4C2CD11DAEEB4E1744 /* Pods-tawk.toTests.debug.xcconfig */;
+			baseConfigurationReference = 13780AB4EAFA714548971F54 /* Pods-tawk.toTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -738,7 +738,7 @@
 		};
 		ED5795B82572998200EAA153 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F49AB3B5A67C33EE3A146EDD /* Pods-tawk.toTests.release.xcconfig */;
+			baseConfigurationReference = D3474F5EA885A75FA09CF075 /* Pods-tawk.toTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -761,7 +761,7 @@
 		};
 		ED5795BA2572998200EAA153 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38C78CE7FFEE10F0101C88CA /* Pods-tawk.to-tawk.toUITests.debug.xcconfig */;
+			baseConfigurationReference = 4805B9CAF4FFF6ED82E04132 /* Pods-tawk.to-tawk.toUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -782,7 +782,7 @@
 		};
 		ED5795BB2572998200EAA153 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0741DAE5E479A40107B7BD3 /* Pods-tawk.to-tawk.toUITests.release.xcconfig */;
+			baseConfigurationReference = 520776902202E13BC11CA570 /* Pods-tawk.to-tawk.toUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

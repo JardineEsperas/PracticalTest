@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import NotificationBannerSwift
 import Reachability
 
 class BaseViewController: UIViewController {
@@ -67,7 +68,8 @@ class BaseViewController: UIViewController {
     
         if reachability.connection == .unavailable   {
             print("Network is not reachable")
-
+            let banner = NotificationBanner(title: "No Internet Connection", subtitle: nil, style: .danger)
+            banner.show()
         } else {
             print("Network is reachable")
             DispatchQueue.main.async {
@@ -79,7 +81,7 @@ class BaseViewController: UIViewController {
     }
     
     func hasInternetConnection() {
-        
+
     }
     
 }
