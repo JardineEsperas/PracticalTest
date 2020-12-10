@@ -36,10 +36,7 @@ class UserViewController: BaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-
-        
-        
+    
         loadNote()
         
     }
@@ -179,6 +176,8 @@ class UserViewController: BaseViewController {
         } catch {
             print("Error fetching data from context \(error)")
         }
+        
+        self.tableView.reloadData()
 
     }
 }

@@ -67,9 +67,6 @@ class BaseViewController: UIViewController {
     
         if reachability.connection == .unavailable   {
             print("Network is not reachable")
-//            DispatchQueue.main.async {
-//                self.view.backgroundColor = #colorLiteral(red: 0.6548547278, green: 0.01568627544, blue: 0.1294117719, alpha: 1)
-//            }
 
         } else {
             print("Network is reachable")
